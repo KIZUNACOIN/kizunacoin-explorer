@@ -1,8 +1,8 @@
 /*jslint node: true */
 'use strict';
 
-var db = require('byteballcore/db.js');
-var storage = require('byteballcore/storage.js');
+var db = require('core/db.js');
+var storage = require('core/storage.js');
 var moment = require('moment');
 var async = require('async');
 
