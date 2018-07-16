@@ -1,7 +1,7 @@
 /*jslint node: true */
 "use strict";
 
-exports.port = 6612;
+exports.port = null;
 //exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = false;
 exports.bLight = false;
@@ -60,7 +60,7 @@ exports.initial_witnesses = [
 ];
 */
 exports.initial_peers = [
-	'wss://hub.kizunacoin.jp/bb'
+	'wss://hub.kizunacoin.jp'
 ];
 
 console.log('finished explorer conf');
